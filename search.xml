@@ -415,7 +415,7 @@
       </tags>
   </entry>
   <entry>
-    <title></title>
+    <title>Hexo博客部署指南</title>
     <url>/2022/04/16/%E5%8D%9A%E5%AE%A2%E9%83%A8%E7%BD%B2%E6%8C%87%E5%8D%97/</url>
     <content><![CDATA[<h2 id="解决Typora的md文档不能直接部署在Hexo"><a href="#解决Typora的md文档不能直接部署在Hexo" class="headerlink" title="解决Typora的md文档不能直接部署在Hexo"></a>解决Typora的md文档不能直接部署在Hexo</h2><h3 id="在md文档开头增加博客标题、分类等文档信息"><a href="#在md文档开头增加博客标题、分类等文档信息" class="headerlink" title="在md文档开头增加博客标题、分类等文档信息"></a>在md文档开头增加博客标题、分类等文档信息</h3><p>要想在博客中显示正常的（自定义）日期、标题、分类、标签等信息，那么需要在Typora的md文章中，在正文前的— —内增加文档信息，示例如图：</p>
 <img src="/2022/04/16/%E5%8D%9A%E5%AE%A2%E9%83%A8%E7%BD%B2%E6%8C%87%E5%8D%97/image-20220416103852863.png" alt="image-20220416103852863" style="zoom: 80%;">
@@ -455,6 +455,12 @@
 
 <p>参考文章：<a href="https://juejin.cn/post/6844903652956569613">Hexo常用快捷键</a></p>
 ]]></content>
+      <categories>
+        <category>Hexo</category>
+      </categories>
+      <tags>
+        <tag>Hexo</tag>
+      </tags>
   </entry>
   <entry>
     <title>快手面经</title>
