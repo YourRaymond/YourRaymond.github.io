@@ -1,67 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <search>
   <entry>
-    <title>快手面经</title>
-    <url>/2022/03/25/%E5%BF%AB%E6%89%8B%E9%9D%A2%E7%BB%8F/</url>
-    <content><![CDATA[<h1 id="一-一面03-25（56min-25min）"><a href="#一-一面03-25（56min-25min）" class="headerlink" title="一. 一面03.25（56min+25min）"></a>一. 一面03.25（56min+25min）</h1><h2 id="1-自我介绍"><a href="#1-自我介绍" class="headerlink" title="1. 自我介绍"></a>1. 自我介绍</h2><h2 id="2-数组和List的区别"><a href="#2-数组和List的区别" class="headerlink" title="2. 数组和List的区别"></a>2. 数组和List的区别</h2><h2 id="3-List主要有哪些实现类"><a href="#3-List主要有哪些实现类" class="headerlink" title="3. List主要有哪些实现类"></a>3. List主要有哪些实现类</h2><h2 id="4-对比ArrayList和LinkedList"><a href="#4-对比ArrayList和LinkedList" class="headerlink" title="4. 对比ArrayList和LinkedList"></a>4. 对比ArrayList和LinkedList</h2><h2 id="5-Collection集合有哪些类型，分别有哪些特点"><a href="#5-Collection集合有哪些类型，分别有哪些特点" class="headerlink" title="5. Collection集合有哪些类型，分别有哪些特点"></a>5. Collection集合有哪些类型，分别有哪些特点</h2><div class="code-wrapper"><pre><code class="hljs">1. List、Set、Queue
-</code></pre></div>
-<h2 id="6-Set的主要实现类-HashSet底层原理是什么"><a href="#6-Set的主要实现类-HashSet底层原理是什么" class="headerlink" title="6. Set的主要实现类-HashSet底层原理是什么"></a>6. Set的主要实现类-HashSet底层原理是什么</h2><div class="code-wrapper"><pre><code class="hljs">1. 我按HashMap那种的比较HashCode、Key等去介绍了下，面试官说知道HashSet是HashMap实现的就好，我介绍的那些是HashMap的实现原理
-</code></pre></div>
-<h2 id="7-Map属性"><a href="#7-Map属性" class="headerlink" title="7. Map属性"></a>7. Map属性</h2><div class="code-wrapper"><pre><code class="hljs">1. 我按put、remove、containsKey、get答的
-</code></pre></div>
-<h2 id="8-Map的扩容为什么要扩两倍"><a href="#8-Map的扩容为什么要扩两倍" class="headerlink" title="8. Map的扩容为什么要扩两倍"></a>8. Map的扩容为什么要扩两倍</h2><h2 id="9-Map的源码有看过吗"><a href="#9-Map的源码有看过吗" class="headerlink" title="9. Map的源码有看过吗"></a>9. Map的源码有看过吗</h2><h2 id="10-Map的底层结构是什么"><a href="#10-Map的底层结构是什么" class="headerlink" title="10. Map的底层结构是什么"></a>10. Map的底层结构是什么</h2><div class="code-wrapper"><pre><code class="hljs">1. 什么时候链表转红黑树
-2. 什么时候红黑树转链表（懵了）
-</code></pre></div>
-<h2 id="11-多线程优势和问题"><a href="#11-多线程优势和问题" class="headerlink" title="11. 多线程优势和问题"></a>11. 多线程优势和问题</h2><h2 id="12-介绍下用到的锁"><a href="#12-介绍下用到的锁" class="headerlink" title="12. 介绍下用到的锁"></a>12. 介绍下用到的锁</h2><div class="code-wrapper"><pre><code class="hljs">1. 对比synchronized和Lock
-</code></pre></div>
-<h2 id="13-synchronized实现了禁止指令重排对吧"><a href="#13-synchronized实现了禁止指令重排对吧" class="headerlink" title="13. synchronized实现了禁止指令重排对吧"></a>13. synchronized实现了禁止指令重排对吧</h2><div class="code-wrapper"><pre><code class="hljs">1. 我说不是靠volatile实现的吗，然后面试官说主要不是靠他
-</code></pre></div>
-<h2 id="14-顺便让我介绍了下volatile"><a href="#14-顺便让我介绍了下volatile" class="headerlink" title="14. 顺便让我介绍了下volatile"></a>14. 顺便让我介绍了下volatile</h2><div class="code-wrapper"><pre><code class="hljs">1. 从Java内存模型讲为何要用volatile
-</code></pre></div>
-<h2 id="15-synchronized都怎么用"><a href="#15-synchronized都怎么用" class="headerlink" title="15. synchronized都怎么用"></a>15. synchronized都怎么用</h2><div class="code-wrapper"><pre><code class="hljs">1. 类、方法、代码块
-2. 用在代码块的时候，我说可以用.class对象，面试官问为什么要用class对象，我说保证各个线程之间锁是统一的
-</code></pre></div>
-<h2 id="16-类的两种加载方式"><a href="#16-类的两种加载方式" class="headerlink" title="16. 类的两种加载方式"></a>16. 类的两种加载方式</h2><div class="code-wrapper"><pre><code class="hljs">1. 自动（加载-链接-初始化）
-2. 手动（提示我Class.forName和LoadClass还是ClassLoader来着）
-</code></pre></div>
-<h2 id="17-讲讲反射"><a href="#17-讲讲反射" class="headerlink" title="17. 讲讲反射"></a>17. 讲讲反射</h2><h2 id="18-异常"><a href="#18-异常" class="headerlink" title="18. 异常"></a>18. 异常</h2><div class="code-wrapper"><pre><code class="hljs">1. 运行期异常
-2. 非运行期异常
-3. 举例（运行期异常见的比较多，如数组越界、空指针等，非运行期异常没想起来例子）
-</code></pre></div>
-<h2 id="19-线程状态"><a href="#19-线程状态" class="headerlink" title="19. 线程状态"></a>19. 线程状态</h2><div class="code-wrapper"><pre><code class="hljs">1. 以Thread创建线程为例，从start到run，然后往下介绍，一共6种状态
-</code></pre></div>
-<h2 id="20-线程池参数"><a href="#20-线程池参数" class="headerlink" title="20. 线程池参数"></a>20. 线程池参数</h2><h2 id="21-核程和非核心线程什么时候创建的"><a href="#21-核程和非核心线程什么时候创建的" class="headerlink" title="21. 核程和非核心线程什么时候创建的"></a>21. 核程和非核心线程什么时候创建的</h2><h2 id="22-MySQL索引类型，分别介绍下"><a href="#22-MySQL索引类型，分别介绍下" class="headerlink" title="22. MySQL索引类型，分别介绍下"></a>22. MySQL索引类型，分别介绍下</h2><h2 id="23-索引用的数据结构，为什么用B-树"><a href="#23-索引用的数据结构，为什么用B-树" class="headerlink" title="23. 索引用的数据结构，为什么用B+树"></a>23. 索引用的数据结构，为什么用B+树</h2><div class="code-wrapper"><pre><code class="hljs">1. 从B树和B+树对比答的主要两点
-    1. 内部节点不存储记录，只存储指向叶子节点指针
-    2. 叶子节点之间形成链表
-</code></pre></div>
-<h2 id="24-聚簇索引和普通索引的区别"><a href="#24-聚簇索引和普通索引的区别" class="headerlink" title="24. 聚簇索引和普通索引的区别"></a>24. 聚簇索引和普通索引的区别</h2><div class="code-wrapper"><pre><code class="hljs">1. 没答好，面试官说普通索引需要二次索引（普通索引先找聚簇索引，再找记录）
-</code></pre></div>
-<h2 id="25-Redis掌握多少"><a href="#25-Redis掌握多少" class="headerlink" title="25. Redis掌握多少"></a>25. Redis掌握多少</h2><div class="code-wrapper"><pre><code class="hljs">1. 我说就最基础的吧，数据类型、缓存的三大问题那些，面试官就没多问了
-</code></pre></div>
-<h2 id="26-算法题：K个一组反转链表和寻找同值最长路径，让我选一道（前者）"><a href="#26-算法题：K个一组反转链表和寻找同值最长路径，让我选一道（前者）" class="headerlink" title="26. 算法题：K个一组反转链表和寻找同值最长路径，让我选一道（前者）"></a>26. 算法题：K个一组反转链表和寻找同值最长路径，让我选一道（前者）</h2><div class="code-wrapper"><pre><code class="hljs">1. 面试环境下，心态真的是急躁，思路就很混乱，对于谁连谁真的很混乱
-2. 又是理解错题意了，写成了k个一组反转，最后实现了整个全反转了，又写错了，麻了
-3. 需要每天至少刷两道题来保持手感了，而且需要限时，锻炼临场能力
-</code></pre></div>
-<h2 id="27-反问："><a href="#27-反问：" class="headerlink" title="27. 反问："></a>27. 反问：</h2><div class="code-wrapper"><pre><code class="hljs">1. 主要用的是go吗
-    1. 说是java（但是他一直都推荐我学go，说java1.8是他们那个年代的人学的，现在应该学新技术，而且说我要是入坑没有很深的话可以去转go，要是入坑很深了可以学一些java11 13，技术要往新了学，不要学很老的东西，很神奇哈哈哈）
-2. 为刚刚电脑没电让面试官等了5分钟抱歉
-</code></pre></div>
-<h1 id="一面总结："><a href="#一面总结：" class="headerlink" title="一面总结："></a>一面总结：</h1><ol>
-<li>面试体验很不错，面试官（目测30左右）很随和，相比于微软好太多了</li>
-<li>全程聊天式面试，有几个答不出来的地方我说我再想一下，他说没关系想不起来我来引导一下你</li>
-<li>根据简历，问的很全面，都会问一些，有的问的多，有的问的少，也知道我的项目里面自己做的东西不多，所以主要考我的基础了</li>
-<li>每个点都由浅入深，考察知识的深度</li>
-<li>回答的时候说我可以发散一些，相关别的方面的知识的也可以说一下（导致我多说了哪就问我哪哈哈哈，所以一定要挑熟的说，不熟的别提）</li>
-</ol>
-]]></content>
-      <categories>
-        <category>面经</category>
-      </categories>
-      <tags>
-        <tag>面经</tag>
-      </tags>
-  </entry>
-  <entry>
     <title>JVM</title>
     <url>/2022/04/01/JVM/</url>
     <content><![CDATA[<h2 id="Java的内存区域"><a href="#Java的内存区域" class="headerlink" title="Java的内存区域"></a>Java的内存区域</h2><h3 id="JVM的主要组成部分及其作用"><a href="#JVM的主要组成部分及其作用" class="headerlink" title="JVM的主要组成部分及其作用"></a>JVM的主要组成部分及其作用</h3><img src="https://img-blog.csdnimg.cn/20200103213149526.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly90aGlua3dvbi5ibG9nLmNzZG4ubmV0,size_16,color_FFFFFF,t_70" alt="img" style="zoom:67%;">
@@ -476,50 +415,6 @@
       </tags>
   </entry>
   <entry>
-    <title>招行面经</title>
-    <url>/2022/04/15/%E6%8B%9B%E8%A1%8C%E9%9D%A2%E7%BB%8F/</url>
-    <content><![CDATA[<h2 id="一面（信用卡中心测试方向，4-15，25min）"><a href="#一面（信用卡中心测试方向，4-15，25min）" class="headerlink" title="一面（信用卡中心测试方向，4.15，25min）"></a>一面（信用卡中心测试方向，4.15，25min）</h2><p>两个面试官，都挺和蔼的，一个问完，另一个再问。</p>
-<h3 id="自我介绍"><a href="#自我介绍" class="headerlink" title="自我介绍"></a>自我介绍</h3><h3 id="面试官说明志愿情况"><a href="#面试官说明志愿情况" class="headerlink" title="面试官说明志愿情况"></a>面试官说明志愿情况</h3><p>因为我自我介绍还是按照之前面开发那样的形式，所以面试官问我是否清楚今天的面试岗位是测试</p>
-<h3 id="对测试的了解"><a href="#对测试的了解" class="headerlink" title="对测试的了解"></a>对测试的了解</h3><p>从实习期间的经历来说，有别的实习生同事负责的测试，和他们也有一些交流，对测试有一些了解，但没有对相关的理论和技术加以学习。</p>
-<h3 id="Java熟悉吗，说一下线程启动的方式"><a href="#Java熟悉吗，说一下线程启动的方式" class="headerlink" title="Java熟悉吗，说一下线程启动的方式"></a>Java熟悉吗，说一下线程启动的方式</h3><p>线程启动都是要靠Thread类的start方法，创建线程的方式就有4种，Thread、Runnable、Callable、线程池</p>
-<h3 id="介绍抽奖项目中的一个接口吧"><a href="#介绍抽奖项目中的一个接口吧" class="headerlink" title="介绍抽奖项目中的一个接口吧"></a>介绍抽奖项目中的一个接口吧</h3><p>管理员登录操作接口，需要根据用户名和密码去数据库里查询是否有该管理员用户，这中间需要通过在xml中配置SQL查询语句，需要对密码进行加密等一些细节</p>
-<h4 id="密码用的什么方法加密的"><a href="#密码用的什么方法加密的" class="headerlink" title="密码用的什么方法加密的"></a>密码用的什么方法加密的</h4><p>一个现有的类，这个有点忘记了</p>
-<h4 id="前端到后端传的密码是明文还是加密了的"><a href="#前端到后端传的密码是明文还是加密了的" class="headerlink" title="前端到后端传的密码是明文还是加密了的"></a>前端到后端传的密码是明文还是加密了的</h4><p>是否加密了有点不太清楚，但是对于使用密码的网页一般都会使用https协议，这样对于输入的密码是放在了请求正文里，是对用户不可见的。</p>
-<figure class="highlight armasm"><table><tr><td class="code"><pre><code class="hljs armasm">查了下，HTTP协议没有对密码加密，但HTTPS协议对密码加密了。还有有没有请求正文是与请求方式有关，<span class="hljs-meta">GET</span>没有请求正文，POST有请求正文。HTTPS协议是HTTP+SSL实现，SSL就是用来验证服务器身份+加密的。<br></code></pre></td></tr></table></figure>
-
-<h3 id="有没有学生工作经历"><a href="#有没有学生工作经历" class="headerlink" title="有没有学生工作经历"></a>有没有学生工作经历</h3><p>官网只填了外联部部长，介绍的可能没那么详细。说自己学生工作经历还是比较丰富的，担任过班长、辅导员助理和外联部部长（下次可以再补充一下哪些突出的事迹）</p>
-<h3 id="有没有参加什么竞赛"><a href="#有没有参加什么竞赛" class="headerlink" title="有没有参加什么竞赛"></a>有没有参加什么竞赛</h3><p>有，参加的竞赛挺多的，拿过还不错的奖项的有数学竞赛、数学建模、小挑创业大赛、电子设计大赛</p>
-<h4 id="介绍一个你觉得含金量比较高的比赛吧"><a href="#介绍一个你觉得含金量比较高的比赛吧" class="headerlink" title="介绍一个你觉得含金量比较高的比赛吧"></a>介绍一个你觉得含金量比较高的比赛吧</h4><p>我有两项国家级奖项，但是都是个人参赛，还有两项省级奖项是团队参赛，那我介绍一下我那个拿了省一的比赛吧，感觉是最难的、付出也最多的一个。小挑，预置路线无人巡逻系统…</p>
-<h4 id="在这个比赛中，你的角色和工作是怎么样的"><a href="#在这个比赛中，你的角色和工作是怎么样的" class="headerlink" title="在这个比赛中，你的角色和工作是怎么样的"></a>在这个比赛中，你的角色和工作是怎么样的</h4><p>无人机机载功能的支持，写论文，设计宣传海报和制作宣传视频</p>
-<h3 id="讲一下你的科研项目中的难点吧"><a href="#讲一下你的科研项目中的难点吧" class="headerlink" title="讲一下你的科研项目中的难点吧"></a>讲一下你的科研项目中的难点吧</h3><p>国内目前做WiFi感知的不太多，属于一个近几年来刚兴起的一个领域，所以可以参考的工作比较少。而我的研究课题也是随着团队的发展诞生的一个需求，而不是直接对现有的一些工作进行较小的改动那种，所以需要针对团队发展的需求去做实现。那么能够参考的工作就几乎没有。我做的主要是实现感知的广覆盖，因为现有的研究都是停留在实验阶段，只在一个很小的区域内实现一些简单的功能，而我做的是想在实际场景下针对广泛覆盖的WiFi链路进行一个最优化协作。起初希望是基于结果去选择链路，但是一个有一个强化学习和深度学习相互依赖的问题一直没能得到解决，后来就反向思考，从数据本身出发，分析信号的差异性特征，得到一些衡量指标，设计一个最优化的算法。所以在这个过程中对于方案的设计因为没有前人工作的参考所以需要从零开始探索，是一个难点。</p>
-<h3 id="抽奖中用到了Redis，那你说一下缓存雪崩、击穿、穿透吧"><a href="#抽奖中用到了Redis，那你说一下缓存雪崩、击穿、穿透吧" class="headerlink" title="抽奖中用到了Redis，那你说一下缓存雪崩、击穿、穿透吧"></a>抽奖中用到了Redis，那你说一下缓存雪崩、击穿、穿透吧</h3><p>首先讲了下用Redis是为了防止大量的请求直接打到数据库，减轻数据库的压力。</p>
-<p>雪崩：大量key失效</p>
-<p>击穿：热点key失效</p>
-<p>穿透：大量不存在的key请求</p>
-<h3 id="SQL注入是怎么做的"><a href="#SQL注入是怎么做的" class="headerlink" title="SQL注入是怎么做的"></a>SQL注入是怎么做的</h3><p>说了下SQL注入的场景</p>
-<p>从限制不同管理员权限、SQL预编译、字段长度限制、现有防注入工具来说了下</p>
-<h3 id="规划"><a href="#规划" class="headerlink" title="规划"></a>规划</h3><h4 id="对于未来工作的城市方面的选择"><a href="#对于未来工作的城市方面的选择" class="headerlink" title="对于未来工作的城市方面的选择"></a>对于未来工作的城市方面的选择</h4><ul>
-<li>想要珍惜一线城市的平台和资源</li>
-<li>之后会和女朋友一起做打算，因为现在对于她来说还没到开始找工作的时间</li>
-</ul>
-<h4 id="那你们实习是打算在一个地方吗"><a href="#那你们实习是打算在一个地方吗" class="headerlink" title="那你们实习是打算在一个地方吗"></a>那你们实习是打算在一个地方吗</h4><p>她那个专业不像我们这种，她是做电化学、新能源这方面的，她们一般没有暑期实习</p>
-<h3 id="第二个面试官再次询问关于这个测试方向是否可以接受"><a href="#第二个面试官再次询问关于这个测试方向是否可以接受" class="headerlink" title="第二个面试官再次询问关于这个测试方向是否可以接受"></a>第二个面试官再次询问关于这个测试方向是否可以接受</h3><p>可以接受</p>
-<h3 id="那你会不会介意对于之前的知识积累并不会用上"><a href="#那你会不会介意对于之前的知识积累并不会用上" class="headerlink" title="那你会不会介意对于之前的知识积累并不会用上"></a>那你会不会介意对于之前的知识积累并不会用上</h3><p>我举例说本科到读研，是从通信向着人工智能方向做的一个改变，之前的知识和积累也没有用上什么，我也完全可以接受读研到工作可能也是这样一个不同的转变。尝试多种可能有时候会发现不一样的机会。</p>
-<h3 id="你读研的方向和人工智能很相关，那你为什么没有考虑去找这方面的工作"><a href="#你读研的方向和人工智能很相关，那你为什么没有考虑去找这方面的工作" class="headerlink" title="你读研的方向和人工智能很相关，那你为什么没有考虑去找这方面的工作"></a>你读研的方向和人工智能很相关，那你为什么没有考虑去找这方面的工作</h3><p>项目偏向应用，只是把各种算法当作工具去实现一些研究目的，但算法方面的工作大多会从算法设计、结构优化等方面去考虑性能之类的问题，可能比较偏底层，一方面自己的兴趣不在那，另一方面自己的积累和那些工作还是有一定的偏差的。</p>
-<h3 id="反问"><a href="#反问" class="headerlink" title="反问"></a>反问</h3><h4 id="志愿情况询问，不确定当时投递的时候是否有优先级，还是说随意进入了一个志愿"><a href="#志愿情况询问，不确定当时投递的时候是否有优先级，还是说随意进入了一个志愿" class="headerlink" title="志愿情况询问，不确定当时投递的时候是否有优先级，还是说随意进入了一个志愿"></a>志愿情况询问，不确定当时投递的时候是否有优先级，还是说随意进入了一个志愿</h4><p>面试官强调因为我投了四个方向（服务端、量化策略、测试、产品），前两个方向人特别多，测试这边人比较少，结合我的简历，就把我调到了测试方向，问我可不可以接受，不能的话就把我调回去。</p>
-<p>–我说可以接受，不觉得开发和测试哪个好和不好，而是不同方向的差异，愿意尝试多种可能。</p>
-<h4 id="自己对于测试目前还是空白，如果有幸能够拿到这个机会之后会有培训吗"><a href="#自己对于测试目前还是空白，如果有幸能够拿到这个机会之后会有培训吗" class="headerlink" title="自己对于测试目前还是空白，如果有幸能够拿到这个机会之后会有培训吗"></a>自己对于测试目前还是空白，如果有幸能够拿到这个机会之后会有培训吗</h4><p>有的，会有培训，并且会有导师带的。</p>
-<p>– 其实是想和面试官确认下自己不会测试真的没问题吗</p>
-<h4 id="结合上海的疫情，如果到时候不能线下实习怎么办"><a href="#结合上海的疫情，如果到时候不能线下实习怎么办" class="headerlink" title="结合上海的疫情，如果到时候不能线下实习怎么办"></a>结合上海的疫情，如果到时候不能线下实习怎么办</h4><p>面试官应付地说了句HR会综合考虑，毕竟也不是只有我一个人</p>
-]]></content>
-      <categories>
-        <category>面经</category>
-      </categories>
-      <tags>
-        <tag>面经</tag>
-      </tags>
-  </entry>
-  <entry>
     <title></title>
     <url>/2022/04/16/%E5%8D%9A%E5%AE%A2%E9%83%A8%E7%BD%B2%E6%8C%87%E5%8D%97/</url>
     <content><![CDATA[<h2 id="解决Typora的md文档不能直接部署在Hexo"><a href="#解决Typora的md文档不能直接部署在Hexo" class="headerlink" title="解决Typora的md文档不能直接部署在Hexo"></a>解决Typora的md文档不能直接部署在Hexo</h2><h3 id="在md文档开头增加博客标题、分类等文档信息"><a href="#在md文档开头增加博客标题、分类等文档信息" class="headerlink" title="在md文档开头增加博客标题、分类等文档信息"></a>在md文档开头增加博客标题、分类等文档信息</h3><p>要想在博客中显示正常的（自定义）日期、标题、分类、标签等信息，那么需要在Typora的md文章中，在正文前的— —内增加文档信息，示例如图：</p>
@@ -562,50 +457,108 @@
 ]]></content>
   </entry>
   <entry>
-    <title>数据库</title>
-    <url>/2022/04/12/%E6%95%B0%E6%8D%AE%E5%BA%93/</url>
-    <content><![CDATA[<h2 id="索引"><a href="#索引" class="headerlink" title="索引"></a>索引</h2><h3 id="为什么MySQL用B-树做索引而不用B-树或红黑树"><a href="#为什么MySQL用B-树做索引而不用B-树或红黑树" class="headerlink" title="为什么MySQL用B+树做索引而不用B-树或红黑树"></a>为什么MySQL用B+树做索引而不用B-树或红黑树</h3><h4 id="为什么不用B-树"><a href="#为什么不用B-树" class="headerlink" title="为什么不用B-树"></a>为什么不用B-树</h4><ul>
-<li>B-树的每个节点都会有Data域，而B+树只有叶子节点存放数据，其余内部节点用来做索引，这样内部节点就比较小，从而在利用索引进行查询的时候磁盘IO次数就少。<ul>
-<li>一般来说索引非常大，尤其是关系型数据库这种数据量大的索引能达到亿级别，所以为了减少内存占用，<u>&#x3D;&#x3D;索引会存储在磁盘上&#x3D;&#x3D;</u>。</li>
-<li>MySQL如何衡量查询效率——磁盘IO次数。B-树&#x2F;B+树的特点就是每层节点数目非常多，层数很少，目的就是为了减少磁盘IO次数，但是B-树的每个节点都有Data域，这会增大节点的大小，而磁盘IO一次读出的数据量大小是固定的，单个数据变大，每次读出的就少，那么就会增大磁盘IO次数。B+树除了叶子节点其他节点并不存储数据，节点小，磁盘IO次数就少。</li>
-</ul>
-</li>
-<li>B+树的<u>叶子节点会用指针串起来</u>，形成一个链表结构，这样遍历全部叶子节点就能获得全部数据，这样的优势在于可以进行<u>区间访问</u>。在数据库中进行区间访问（范围查询）是非常频繁的。</li>
-</ul>
-<h4 id="为什么不用红黑树"><a href="#为什么不用红黑树" class="headerlink" title="为什么不用红黑树"></a>为什么不用红黑树</h4><p>平衡二叉搜索树（AVL树）和红黑树基本都是存储在内存中才会使用的数据结构。在大规模数据存储的时候，AVL树和红黑树由于树的深度过大而造成磁盘IO读写过于频繁，进而导致效率低下的情况。</p>
-<p>获取磁盘上的数据，必须先通过磁盘移动臂移动到数据所在的柱面，然后找到指定的盘面，接着旋转盘面找到数据所在的磁道，最后对数据进行读写（柱面-盘面-磁道-读写）。根据磁盘查找存取的次数往往由树的高度决定。</p>
-<h4 id="为什么不用Hash"><a href="#为什么不用Hash" class="headerlink" title="为什么不用Hash"></a>为什么不用Hash</h4><p>问题：B+树的查询时间跟树的高度有关，是log(n)，如果用hash存储，那么查询时间是O(1)。既然hash比B+树更快，为什么mysql用B+树来存储索引呢？</p>
-<ul>
-<li>从内存角度上说，数据库中的索引一般时在磁盘上，数据量大的情况可能无法一次性装入内存，B+树的设计可以允许数据分批加载。</li>
-<li>从业务场景上说，如果只选择一个数据那确实是hash更快，但是数据库中经常会选中多条这时候由于B+树索引有序，并且又有链表相连，它的查询效率比hash就快很多了。</li>
-</ul>
-<h2 id="存储引擎"><a href="#存储引擎" class="headerlink" title="存储引擎"></a>存储引擎</h2><h3 id="MyISAM和InnoDB的区别"><a href="#MyISAM和InnoDB的区别" class="headerlink" title="MyISAM和InnoDB的区别"></a>MyISAM和InnoDB的区别</h3><img src="https://mmbiz.qpic.cn/mmbiz_png/9dwzhvuGc8aP3ZujaVhV3NucRZQWuMRAF3OfmVibiaF6pSFI7f0Cug1f5Icb1tmtPlzTjOR3ozfyzJB1Bd3NT1Tw/640?wx_fmt=png&wxfrom=5&wx_lazy=1&wx_co=1" alt="图片" style="zoom:50%;"> 
-
-<ol>
-<li>InnoDB支持事务，MyISAM不支持</li>
-<li>InnoDB支持外键，MyISAM不支持</li>
-<li>InnoDB是聚集索引，使用B+树作为索引结构，数据文件是和索引绑在一起的，必须要有主键。MyISAM是非聚集索引，也是使用B+树的索引结构，数据文件和索引是分离的，索引保存的是数据文件的指针。主键索引和辅助索引是独立的。</li>
-<li>InnoDB不保存表的具体行数，MyISAM用一个变量保存了整个表的行数。</li>
-<li>InnoDB有redo log，而MyISAM没有。</li>
-<li>InnoDB支持表级锁和行级锁，默认行级锁。而MyISAM仅支持表级锁。</li>
-<li>InnoDB必须有唯一索引（主键），如果没有指定的话InnoDB会自己生成一个隐藏的列Row_id来充当默认主键。MyISAM可以没有唯一索引。</li>
-<li>InnoDB支持MVCC，而MyISAM不支持</li>
+    <title>快手面经</title>
+    <url>/2022/03/25/%E5%BF%AB%E6%89%8B%E9%9D%A2%E7%BB%8F/</url>
+    <content><![CDATA[<h1 id="一-一面03-25（56min-25min）"><a href="#一-一面03-25（56min-25min）" class="headerlink" title="一. 一面03.25（56min+25min）"></a>一. 一面03.25（56min+25min）</h1><h2 id="1-自我介绍"><a href="#1-自我介绍" class="headerlink" title="1. 自我介绍"></a>1. 自我介绍</h2><h2 id="2-数组和List的区别"><a href="#2-数组和List的区别" class="headerlink" title="2. 数组和List的区别"></a>2. 数组和List的区别</h2><h2 id="3-List主要有哪些实现类"><a href="#3-List主要有哪些实现类" class="headerlink" title="3. List主要有哪些实现类"></a>3. List主要有哪些实现类</h2><h2 id="4-对比ArrayList和LinkedList"><a href="#4-对比ArrayList和LinkedList" class="headerlink" title="4. 对比ArrayList和LinkedList"></a>4. 对比ArrayList和LinkedList</h2><h2 id="5-Collection集合有哪些类型，分别有哪些特点"><a href="#5-Collection集合有哪些类型，分别有哪些特点" class="headerlink" title="5. Collection集合有哪些类型，分别有哪些特点"></a>5. Collection集合有哪些类型，分别有哪些特点</h2><div class="code-wrapper"><pre><code class="hljs">1. List、Set、Queue
+</code></pre></div>
+<h2 id="6-Set的主要实现类-HashSet底层原理是什么"><a href="#6-Set的主要实现类-HashSet底层原理是什么" class="headerlink" title="6. Set的主要实现类-HashSet底层原理是什么"></a>6. Set的主要实现类-HashSet底层原理是什么</h2><div class="code-wrapper"><pre><code class="hljs">1. 我按HashMap那种的比较HashCode、Key等去介绍了下，面试官说知道HashSet是HashMap实现的就好，我介绍的那些是HashMap的实现原理
+</code></pre></div>
+<h2 id="7-Map属性"><a href="#7-Map属性" class="headerlink" title="7. Map属性"></a>7. Map属性</h2><div class="code-wrapper"><pre><code class="hljs">1. 我按put、remove、containsKey、get答的
+</code></pre></div>
+<h2 id="8-Map的扩容为什么要扩两倍"><a href="#8-Map的扩容为什么要扩两倍" class="headerlink" title="8. Map的扩容为什么要扩两倍"></a>8. Map的扩容为什么要扩两倍</h2><h2 id="9-Map的源码有看过吗"><a href="#9-Map的源码有看过吗" class="headerlink" title="9. Map的源码有看过吗"></a>9. Map的源码有看过吗</h2><h2 id="10-Map的底层结构是什么"><a href="#10-Map的底层结构是什么" class="headerlink" title="10. Map的底层结构是什么"></a>10. Map的底层结构是什么</h2><div class="code-wrapper"><pre><code class="hljs">1. 什么时候链表转红黑树
+2. 什么时候红黑树转链表（懵了）
+</code></pre></div>
+<h2 id="11-多线程优势和问题"><a href="#11-多线程优势和问题" class="headerlink" title="11. 多线程优势和问题"></a>11. 多线程优势和问题</h2><h2 id="12-介绍下用到的锁"><a href="#12-介绍下用到的锁" class="headerlink" title="12. 介绍下用到的锁"></a>12. 介绍下用到的锁</h2><div class="code-wrapper"><pre><code class="hljs">1. 对比synchronized和Lock
+</code></pre></div>
+<h2 id="13-synchronized实现了禁止指令重排对吧"><a href="#13-synchronized实现了禁止指令重排对吧" class="headerlink" title="13. synchronized实现了禁止指令重排对吧"></a>13. synchronized实现了禁止指令重排对吧</h2><div class="code-wrapper"><pre><code class="hljs">1. 我说不是靠volatile实现的吗，然后面试官说主要不是靠他
+</code></pre></div>
+<h2 id="14-顺便让我介绍了下volatile"><a href="#14-顺便让我介绍了下volatile" class="headerlink" title="14. 顺便让我介绍了下volatile"></a>14. 顺便让我介绍了下volatile</h2><div class="code-wrapper"><pre><code class="hljs">1. 从Java内存模型讲为何要用volatile
+</code></pre></div>
+<h2 id="15-synchronized都怎么用"><a href="#15-synchronized都怎么用" class="headerlink" title="15. synchronized都怎么用"></a>15. synchronized都怎么用</h2><div class="code-wrapper"><pre><code class="hljs">1. 类、方法、代码块
+2. 用在代码块的时候，我说可以用.class对象，面试官问为什么要用class对象，我说保证各个线程之间锁是统一的
+</code></pre></div>
+<h2 id="16-类的两种加载方式"><a href="#16-类的两种加载方式" class="headerlink" title="16. 类的两种加载方式"></a>16. 类的两种加载方式</h2><div class="code-wrapper"><pre><code class="hljs">1. 自动（加载-链接-初始化）
+2. 手动（提示我Class.forName和LoadClass还是ClassLoader来着）
+</code></pre></div>
+<h2 id="17-讲讲反射"><a href="#17-讲讲反射" class="headerlink" title="17. 讲讲反射"></a>17. 讲讲反射</h2><h2 id="18-异常"><a href="#18-异常" class="headerlink" title="18. 异常"></a>18. 异常</h2><div class="code-wrapper"><pre><code class="hljs">1. 运行期异常
+2. 非运行期异常
+3. 举例（运行期异常见的比较多，如数组越界、空指针等，非运行期异常没想起来例子）
+</code></pre></div>
+<h2 id="19-线程状态"><a href="#19-线程状态" class="headerlink" title="19. 线程状态"></a>19. 线程状态</h2><div class="code-wrapper"><pre><code class="hljs">1. 以Thread创建线程为例，从start到run，然后往下介绍，一共6种状态
+</code></pre></div>
+<h2 id="20-线程池参数"><a href="#20-线程池参数" class="headerlink" title="20. 线程池参数"></a>20. 线程池参数</h2><h2 id="21-核程和非核心线程什么时候创建的"><a href="#21-核程和非核心线程什么时候创建的" class="headerlink" title="21. 核程和非核心线程什么时候创建的"></a>21. 核程和非核心线程什么时候创建的</h2><h2 id="22-MySQL索引类型，分别介绍下"><a href="#22-MySQL索引类型，分别介绍下" class="headerlink" title="22. MySQL索引类型，分别介绍下"></a>22. MySQL索引类型，分别介绍下</h2><h2 id="23-索引用的数据结构，为什么用B-树"><a href="#23-索引用的数据结构，为什么用B-树" class="headerlink" title="23. 索引用的数据结构，为什么用B+树"></a>23. 索引用的数据结构，为什么用B+树</h2><div class="code-wrapper"><pre><code class="hljs">1. 从B树和B+树对比答的主要两点
+    1. 内部节点不存储记录，只存储指向叶子节点指针
+    2. 叶子节点之间形成链表
+</code></pre></div>
+<h2 id="24-聚簇索引和普通索引的区别"><a href="#24-聚簇索引和普通索引的区别" class="headerlink" title="24. 聚簇索引和普通索引的区别"></a>24. 聚簇索引和普通索引的区别</h2><div class="code-wrapper"><pre><code class="hljs">1. 没答好，面试官说普通索引需要二次索引（普通索引先找聚簇索引，再找记录）
+</code></pre></div>
+<h2 id="25-Redis掌握多少"><a href="#25-Redis掌握多少" class="headerlink" title="25. Redis掌握多少"></a>25. Redis掌握多少</h2><div class="code-wrapper"><pre><code class="hljs">1. 我说就最基础的吧，数据类型、缓存的三大问题那些，面试官就没多问了
+</code></pre></div>
+<h2 id="26-算法题：K个一组反转链表和寻找同值最长路径，让我选一道（前者）"><a href="#26-算法题：K个一组反转链表和寻找同值最长路径，让我选一道（前者）" class="headerlink" title="26. 算法题：K个一组反转链表和寻找同值最长路径，让我选一道（前者）"></a>26. 算法题：K个一组反转链表和寻找同值最长路径，让我选一道（前者）</h2><div class="code-wrapper"><pre><code class="hljs">1. 面试环境下，心态真的是急躁，思路就很混乱，对于谁连谁真的很混乱
+2. 又是理解错题意了，写成了k个一组反转，最后实现了整个全反转了，又写错了，麻了
+3. 需要每天至少刷两道题来保持手感了，而且需要限时，锻炼临场能力
+</code></pre></div>
+<h2 id="27-反问："><a href="#27-反问：" class="headerlink" title="27. 反问："></a>27. 反问：</h2><div class="code-wrapper"><pre><code class="hljs">1. 主要用的是go吗
+    1. 说是java（但是他一直都推荐我学go，说java1.8是他们那个年代的人学的，现在应该学新技术，而且说我要是入坑没有很深的话可以去转go，要是入坑很深了可以学一些java11 13，技术要往新了学，不要学很老的东西，很神奇哈哈哈）
+2. 为刚刚电脑没电让面试官等了5分钟抱歉
+</code></pre></div>
+<h1 id="一面总结："><a href="#一面总结：" class="headerlink" title="一面总结："></a>一面总结：</h1><ol>
+<li>面试体验很不错，面试官（目测30左右）很随和，相比于微软好太多了</li>
+<li>全程聊天式面试，有几个答不出来的地方我说我再想一下，他说没关系想不起来我来引导一下你</li>
+<li>根据简历，问的很全面，都会问一些，有的问的多，有的问的少，也知道我的项目里面自己做的东西不多，所以主要考我的基础了</li>
+<li>每个点都由浅入深，考察知识的深度</li>
+<li>回答的时候说我可以发散一些，相关别的方面的知识的也可以说一下（导致我多说了哪就问我哪哈哈哈，所以一定要挑熟的说，不熟的别提）</li>
 </ol>
-<h2 id="为什么推荐使用自增id作为主键"><a href="#为什么推荐使用自增id作为主键" class="headerlink" title="为什么推荐使用自增id作为主键"></a>为什么推荐使用自增id作为主键</h2><ol>
-<li>普通索引的B+树上存放的是主键索引的值，如果该值较大，会导致普通索引的存储空间较大。</li>
-<li>使用自增id做主键索引时，插入新的数据只需要把该数据放在该页的最尾端即可，直接顺序插入，不用可以维护。</li>
-<li>当插入数据的当前页快满时，会发生页分裂的现象，如果主键索引不为自增id，那么数据就可能从页的中间插入，页的数据就会频繁变动，导致页分裂维护成本较高。</li>
-</ol>
-<img src="https://mmbiz.qpic.cn/mmbiz_png/9dwzhvuGc8aP3ZujaVhV3NucRZQWuMRAnibd083EQ1rvQBVGGZNgoAiaaoYcXEJt0ByuolRAkHOD2UibiamOjQQ15w/640?wx_fmt=png&wxfrom=5&wx_lazy=1&wx_co=1" alt="图片" style="zoom:50%;">
-
-
-
 ]]></content>
       <categories>
-        <category>数据库</category>
+        <category>面经</category>
       </categories>
       <tags>
-        <tag>数据库，MySQL</tag>
+        <tag>面经</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>招行面经</title>
+    <url>/2022/04/15/%E6%8B%9B%E8%A1%8C%E9%9D%A2%E7%BB%8F/</url>
+    <content><![CDATA[<h2 id="一面（信用卡中心测试方向，4-15，25min）"><a href="#一面（信用卡中心测试方向，4-15，25min）" class="headerlink" title="一面（信用卡中心测试方向，4.15，25min）"></a>一面（信用卡中心测试方向，4.15，25min）</h2><p>两个面试官，都挺和蔼的，一个问完，另一个再问。</p>
+<h3 id="自我介绍"><a href="#自我介绍" class="headerlink" title="自我介绍"></a>自我介绍</h3><h3 id="面试官说明志愿情况"><a href="#面试官说明志愿情况" class="headerlink" title="面试官说明志愿情况"></a>面试官说明志愿情况</h3><p>因为我自我介绍还是按照之前面开发那样的形式，所以面试官问我是否清楚今天的面试岗位是测试</p>
+<h3 id="对测试的了解"><a href="#对测试的了解" class="headerlink" title="对测试的了解"></a>对测试的了解</h3><p>从实习期间的经历来说，有别的实习生同事负责的测试，和他们也有一些交流，对测试有一些了解，但没有对相关的理论和技术加以学习。</p>
+<h3 id="Java熟悉吗，说一下线程启动的方式"><a href="#Java熟悉吗，说一下线程启动的方式" class="headerlink" title="Java熟悉吗，说一下线程启动的方式"></a>Java熟悉吗，说一下线程启动的方式</h3><p>线程启动都是要靠Thread类的start方法，创建线程的方式就有4种，Thread、Runnable、Callable、线程池</p>
+<h3 id="介绍抽奖项目中的一个接口吧"><a href="#介绍抽奖项目中的一个接口吧" class="headerlink" title="介绍抽奖项目中的一个接口吧"></a>介绍抽奖项目中的一个接口吧</h3><p>管理员登录操作接口，需要根据用户名和密码去数据库里查询是否有该管理员用户，这中间需要通过在xml中配置SQL查询语句，需要对密码进行加密等一些细节</p>
+<h4 id="密码用的什么方法加密的"><a href="#密码用的什么方法加密的" class="headerlink" title="密码用的什么方法加密的"></a>密码用的什么方法加密的</h4><p>一个现有的类，这个有点忘记了</p>
+<h4 id="前端到后端传的密码是明文还是加密了的"><a href="#前端到后端传的密码是明文还是加密了的" class="headerlink" title="前端到后端传的密码是明文还是加密了的"></a>前端到后端传的密码是明文还是加密了的</h4><p>是否加密了有点不太清楚，但是对于使用密码的网页一般都会使用https协议，这样对于输入的密码是放在了请求正文里，是对用户不可见的。</p>
+<figure class="highlight armasm"><table><tr><td class="code"><pre><code class="hljs armasm">查了下，HTTP协议没有对密码加密，但HTTPS协议对密码加密了。还有有没有请求正文是与请求方式有关，<span class="hljs-meta">GET</span>没有请求正文，POST有请求正文。HTTPS协议是HTTP+SSL实现，SSL就是用来验证服务器身份+加密的。<br></code></pre></td></tr></table></figure>
+
+<h3 id="有没有学生工作经历"><a href="#有没有学生工作经历" class="headerlink" title="有没有学生工作经历"></a>有没有学生工作经历</h3><p>官网只填了外联部部长，介绍的可能没那么详细。说自己学生工作经历还是比较丰富的，担任过班长、辅导员助理和外联部部长（下次可以再补充一下哪些突出的事迹）</p>
+<h3 id="有没有参加什么竞赛"><a href="#有没有参加什么竞赛" class="headerlink" title="有没有参加什么竞赛"></a>有没有参加什么竞赛</h3><p>有，参加的竞赛挺多的，拿过还不错的奖项的有数学竞赛、数学建模、小挑创业大赛、电子设计大赛</p>
+<h4 id="介绍一个你觉得含金量比较高的比赛吧"><a href="#介绍一个你觉得含金量比较高的比赛吧" class="headerlink" title="介绍一个你觉得含金量比较高的比赛吧"></a>介绍一个你觉得含金量比较高的比赛吧</h4><p>我有两项国家级奖项，但是都是个人参赛，还有两项省级奖项是团队参赛，那我介绍一下我那个拿了省一的比赛吧，感觉是最难的、付出也最多的一个。小挑，预置路线无人巡逻系统…</p>
+<h4 id="在这个比赛中，你的角色和工作是怎么样的"><a href="#在这个比赛中，你的角色和工作是怎么样的" class="headerlink" title="在这个比赛中，你的角色和工作是怎么样的"></a>在这个比赛中，你的角色和工作是怎么样的</h4><p>无人机机载功能的支持，写论文，设计宣传海报和制作宣传视频</p>
+<h3 id="讲一下你的科研项目中的难点吧"><a href="#讲一下你的科研项目中的难点吧" class="headerlink" title="讲一下你的科研项目中的难点吧"></a>讲一下你的科研项目中的难点吧</h3><p>国内目前做WiFi感知的不太多，属于一个近几年来刚兴起的一个领域，所以可以参考的工作比较少。而我的研究课题也是随着团队的发展诞生的一个需求，而不是直接对现有的一些工作进行较小的改动那种，所以需要针对团队发展的需求去做实现。那么能够参考的工作就几乎没有。我做的主要是实现感知的广覆盖，因为现有的研究都是停留在实验阶段，只在一个很小的区域内实现一些简单的功能，而我做的是想在实际场景下针对广泛覆盖的WiFi链路进行一个最优化协作。起初希望是基于结果去选择链路，但是一个有一个强化学习和深度学习相互依赖的问题一直没能得到解决，后来就反向思考，从数据本身出发，分析信号的差异性特征，得到一些衡量指标，设计一个最优化的算法。所以在这个过程中对于方案的设计因为没有前人工作的参考所以需要从零开始探索，是一个难点。</p>
+<h3 id="抽奖中用到了Redis，那你说一下缓存雪崩、击穿、穿透吧"><a href="#抽奖中用到了Redis，那你说一下缓存雪崩、击穿、穿透吧" class="headerlink" title="抽奖中用到了Redis，那你说一下缓存雪崩、击穿、穿透吧"></a>抽奖中用到了Redis，那你说一下缓存雪崩、击穿、穿透吧</h3><p>首先讲了下用Redis是为了防止大量的请求直接打到数据库，减轻数据库的压力。</p>
+<p>雪崩：大量key失效</p>
+<p>击穿：热点key失效</p>
+<p>穿透：大量不存在的key请求</p>
+<h3 id="SQL注入是怎么做的"><a href="#SQL注入是怎么做的" class="headerlink" title="SQL注入是怎么做的"></a>SQL注入是怎么做的</h3><p>说了下SQL注入的场景</p>
+<p>从限制不同管理员权限、SQL预编译、字段长度限制、现有防注入工具来说了下</p>
+<h3 id="规划"><a href="#规划" class="headerlink" title="规划"></a>规划</h3><h4 id="对于未来工作的城市方面的选择"><a href="#对于未来工作的城市方面的选择" class="headerlink" title="对于未来工作的城市方面的选择"></a>对于未来工作的城市方面的选择</h4><ul>
+<li>想要珍惜一线城市的平台和资源</li>
+<li>之后会和女朋友一起做打算，因为现在对于她来说还没到开始找工作的时间</li>
+</ul>
+<h4 id="那你们实习是打算在一个地方吗"><a href="#那你们实习是打算在一个地方吗" class="headerlink" title="那你们实习是打算在一个地方吗"></a>那你们实习是打算在一个地方吗</h4><p>她那个专业不像我们这种，她是做电化学、新能源这方面的，她们一般没有暑期实习</p>
+<h3 id="第二个面试官再次询问关于这个测试方向是否可以接受"><a href="#第二个面试官再次询问关于这个测试方向是否可以接受" class="headerlink" title="第二个面试官再次询问关于这个测试方向是否可以接受"></a>第二个面试官再次询问关于这个测试方向是否可以接受</h3><p>可以接受</p>
+<h3 id="那你会不会介意对于之前的知识积累并不会用上"><a href="#那你会不会介意对于之前的知识积累并不会用上" class="headerlink" title="那你会不会介意对于之前的知识积累并不会用上"></a>那你会不会介意对于之前的知识积累并不会用上</h3><p>我举例说本科到读研，是从通信向着人工智能方向做的一个改变，之前的知识和积累也没有用上什么，我也完全可以接受读研到工作可能也是这样一个不同的转变。尝试多种可能有时候会发现不一样的机会。</p>
+<h3 id="你读研的方向和人工智能很相关，那你为什么没有考虑去找这方面的工作"><a href="#你读研的方向和人工智能很相关，那你为什么没有考虑去找这方面的工作" class="headerlink" title="你读研的方向和人工智能很相关，那你为什么没有考虑去找这方面的工作"></a>你读研的方向和人工智能很相关，那你为什么没有考虑去找这方面的工作</h3><p>项目偏向应用，只是把各种算法当作工具去实现一些研究目的，但算法方面的工作大多会从算法设计、结构优化等方面去考虑性能之类的问题，可能比较偏底层，一方面自己的兴趣不在那，另一方面自己的积累和那些工作还是有一定的偏差的。</p>
+<h3 id="反问"><a href="#反问" class="headerlink" title="反问"></a>反问</h3><h4 id="志愿情况询问，不确定当时投递的时候是否有优先级，还是说随意进入了一个志愿"><a href="#志愿情况询问，不确定当时投递的时候是否有优先级，还是说随意进入了一个志愿" class="headerlink" title="志愿情况询问，不确定当时投递的时候是否有优先级，还是说随意进入了一个志愿"></a>志愿情况询问，不确定当时投递的时候是否有优先级，还是说随意进入了一个志愿</h4><p>面试官强调因为我投了四个方向（服务端、量化策略、测试、产品），前两个方向人特别多，测试这边人比较少，结合我的简历，就把我调到了测试方向，问我可不可以接受，不能的话就把我调回去。</p>
+<p>–我说可以接受，不觉得开发和测试哪个好和不好，而是不同方向的差异，愿意尝试多种可能。</p>
+<h4 id="自己对于测试目前还是空白，如果有幸能够拿到这个机会之后会有培训吗"><a href="#自己对于测试目前还是空白，如果有幸能够拿到这个机会之后会有培训吗" class="headerlink" title="自己对于测试目前还是空白，如果有幸能够拿到这个机会之后会有培训吗"></a>自己对于测试目前还是空白，如果有幸能够拿到这个机会之后会有培训吗</h4><p>有的，会有培训，并且会有导师带的。</p>
+<p>– 其实是想和面试官确认下自己不会测试真的没问题吗</p>
+<h4 id="结合上海的疫情，如果到时候不能线下实习怎么办"><a href="#结合上海的疫情，如果到时候不能线下实习怎么办" class="headerlink" title="结合上海的疫情，如果到时候不能线下实习怎么办"></a>结合上海的疫情，如果到时候不能线下实习怎么办</h4><p>面试官应付地说了句HR会综合考虑，毕竟也不是只有我一个人</p>
+]]></content>
+      <categories>
+        <category>面经</category>
+      </categories>
+      <tags>
+        <tag>面经</tag>
       </tags>
   </entry>
   <entry>
@@ -661,6 +614,53 @@
       </categories>
       <tags>
         <tag>数据结构，算法</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>数据库</title>
+    <url>/2022/04/12/%E6%95%B0%E6%8D%AE%E5%BA%93/</url>
+    <content><![CDATA[<h2 id="索引"><a href="#索引" class="headerlink" title="索引"></a>索引</h2><h3 id="为什么MySQL用B-树做索引而不用B-树或红黑树"><a href="#为什么MySQL用B-树做索引而不用B-树或红黑树" class="headerlink" title="为什么MySQL用B+树做索引而不用B-树或红黑树"></a>为什么MySQL用B+树做索引而不用B-树或红黑树</h3><h4 id="为什么不用B-树"><a href="#为什么不用B-树" class="headerlink" title="为什么不用B-树"></a>为什么不用B-树</h4><ul>
+<li>B-树的每个节点都会有Data域，而B+树只有叶子节点存放数据，其余内部节点用来做索引，这样内部节点就比较小，从而在利用索引进行查询的时候磁盘IO次数就少。<ul>
+<li>一般来说索引非常大，尤其是关系型数据库这种数据量大的索引能达到亿级别，所以为了减少内存占用，<u>&#x3D;&#x3D;索引会存储在磁盘上&#x3D;&#x3D;</u>。</li>
+<li>MySQL如何衡量查询效率——磁盘IO次数。B-树&#x2F;B+树的特点就是每层节点数目非常多，层数很少，目的就是为了减少磁盘IO次数，但是B-树的每个节点都有Data域，这会增大节点的大小，而磁盘IO一次读出的数据量大小是固定的，单个数据变大，每次读出的就少，那么就会增大磁盘IO次数。B+树除了叶子节点其他节点并不存储数据，节点小，磁盘IO次数就少。</li>
+</ul>
+</li>
+<li>B+树的<u>叶子节点会用指针串起来</u>，形成一个链表结构，这样遍历全部叶子节点就能获得全部数据，这样的优势在于可以进行<u>区间访问</u>。在数据库中进行区间访问（范围查询）是非常频繁的。</li>
+</ul>
+<h4 id="为什么不用红黑树"><a href="#为什么不用红黑树" class="headerlink" title="为什么不用红黑树"></a>为什么不用红黑树</h4><p>平衡二叉搜索树（AVL树）和红黑树基本都是存储在内存中才会使用的数据结构。在大规模数据存储的时候，AVL树和红黑树由于树的深度过大而造成磁盘IO读写过于频繁，进而导致效率低下的情况。</p>
+<p>获取磁盘上的数据，必须先通过磁盘移动臂移动到数据所在的柱面，然后找到指定的盘面，接着旋转盘面找到数据所在的磁道，最后对数据进行读写（柱面-盘面-磁道-读写）。根据磁盘查找存取的次数往往由树的高度决定。</p>
+<h4 id="为什么不用Hash"><a href="#为什么不用Hash" class="headerlink" title="为什么不用Hash"></a>为什么不用Hash</h4><p>问题：B+树的查询时间跟树的高度有关，是log(n)，如果用hash存储，那么查询时间是O(1)。既然hash比B+树更快，为什么mysql用B+树来存储索引呢？</p>
+<ul>
+<li>从内存角度上说，数据库中的索引一般时在磁盘上，数据量大的情况可能无法一次性装入内存，B+树的设计可以允许数据分批加载。</li>
+<li>从业务场景上说，如果只选择一个数据那确实是hash更快，但是数据库中经常会选中多条这时候由于B+树索引有序，并且又有链表相连，它的查询效率比hash就快很多了。</li>
+</ul>
+<h2 id="存储引擎"><a href="#存储引擎" class="headerlink" title="存储引擎"></a>存储引擎</h2><h3 id="MyISAM和InnoDB的区别"><a href="#MyISAM和InnoDB的区别" class="headerlink" title="MyISAM和InnoDB的区别"></a>MyISAM和InnoDB的区别</h3><img src="https://mmbiz.qpic.cn/mmbiz_png/9dwzhvuGc8aP3ZujaVhV3NucRZQWuMRAF3OfmVibiaF6pSFI7f0Cug1f5Icb1tmtPlzTjOR3ozfyzJB1Bd3NT1Tw/640?wx_fmt=png&wxfrom=5&wx_lazy=1&wx_co=1" alt="图片" style="zoom:50%;"> 
+
+<ol>
+<li>InnoDB支持事务，MyISAM不支持</li>
+<li>InnoDB支持外键，MyISAM不支持</li>
+<li>InnoDB是聚集索引，使用B+树作为索引结构，数据文件是和索引绑在一起的，必须要有主键。MyISAM是非聚集索引，也是使用B+树的索引结构，数据文件和索引是分离的，索引保存的是数据文件的指针。主键索引和辅助索引是独立的。</li>
+<li>InnoDB不保存表的具体行数，MyISAM用一个变量保存了整个表的行数。</li>
+<li>InnoDB有redo log，而MyISAM没有。</li>
+<li>InnoDB支持表级锁和行级锁，默认行级锁。而MyISAM仅支持表级锁。</li>
+<li>InnoDB必须有唯一索引（主键），如果没有指定的话InnoDB会自己生成一个隐藏的列Row_id来充当默认主键。MyISAM可以没有唯一索引。</li>
+<li>InnoDB支持MVCC，而MyISAM不支持</li>
+</ol>
+<h2 id="为什么推荐使用自增id作为主键"><a href="#为什么推荐使用自增id作为主键" class="headerlink" title="为什么推荐使用自增id作为主键"></a>为什么推荐使用自增id作为主键</h2><ol>
+<li>普通索引的B+树上存放的是主键索引的值，如果该值较大，会导致普通索引的存储空间较大。</li>
+<li>使用自增id做主键索引时，插入新的数据只需要把该数据放在该页的最尾端即可，直接顺序插入，不用可以维护。</li>
+<li>当插入数据的当前页快满时，会发生页分裂的现象，如果主键索引不为自增id，那么数据就可能从页的中间插入，页的数据就会频繁变动，导致页分裂维护成本较高。</li>
+</ol>
+<img src="https://mmbiz.qpic.cn/mmbiz_png/9dwzhvuGc8aP3ZujaVhV3NucRZQWuMRAnibd083EQ1rvQBVGGZNgoAiaaoYcXEJt0ByuolRAkHOD2UibiamOjQQ15w/640?wx_fmt=png&wxfrom=5&wx_lazy=1&wx_co=1" alt="图片" style="zoom:50%;">
+
+
+
+]]></content>
+      <categories>
+        <category>数据库</category>
+      </categories>
+      <tags>
+        <tag>数据库，MySQL</tag>
       </tags>
   </entry>
   <entry>
