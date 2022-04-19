@@ -52,10 +52,12 @@
 <li>新生代（Young Generation），又被划分为三个区域，且他们的比例默认为，Eden：From：To&#x3D;8:1:1（可以通过参数-XX:SurvivorRatio来指定）。JVM每次只会使用Eden和其中一块Survivor区域来为对象服务，所以无论什么时候，总有一块Survivor区域是空闲的。</li>
 <li>老年代（Old Generation）</li>
 </ul>
-<img src="https://img-blog.csdn.net/20170420214337173?watermark/2/text/aHR0cDovL2Jsb2cuY3Nkbi5uZXQveGlhbmd6aGlob25nOA==/font/5a6L5L2T/fontsize/400/fill/I0JBQkFCMA==/dissolve/70/gravity/SouthEast" alt="这里写图片描述" style="zoom: 80%;">
-
-<p>Note：永久代（Permanent Generation）是指Java的方法区，其实不属于Java堆。永久代和堆是相互隔离的，但它们使用的物理内存是连续的。</p>
 </li>
+</ul>
+ <img src="/2022/04/01/JVM/image-20220419101101072.png" alt="image-20220419101101072" style="zoom:80%;">
+  
+<p>  Note：永久代（Permanent Generation）是指Java的方法区，其实不属于Java堆。永久代和堆是相互隔离的，但它们使用的物理内存是连续的。</p>
+<ul>
 <li><p>堆大小&#x3D;新生代+老年代，比例1:2。其中堆的大小可以通过参数<code>-Xms</code>、<code>-Xmx</code>来指定。</p>
 </li>
 <li><p>HotSpot为什么要分为新生代和老年代？</p>
